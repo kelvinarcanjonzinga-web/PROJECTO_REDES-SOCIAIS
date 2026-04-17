@@ -6,6 +6,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 html, body{
     width: 100vw;
     height: 100vh;
@@ -48,6 +49,8 @@ iframe#print{
 }
 
 section#redes-socias > a > img{
+    position: relative;
+    z-index: 3;
     width: 50px;
     height: 50px;
     margin: 10px;
@@ -57,6 +60,7 @@ section#redes-socias > a > img{
 
 section#redes-socias{
     text-align: right;
+    z-index: 2;
 }
 
 section#redes-socias > a > img:hover{
